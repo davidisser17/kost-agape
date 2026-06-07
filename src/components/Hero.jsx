@@ -74,7 +74,7 @@ export default function Hero({ siteConfig }) {
             {/* Main Image Container */}
             <div className="absolute inset-0 rounded-[2.5rem] overflow-hidden border-4 border-white shadow-soft-xl transform hover:rotate-0 transition-transform duration-500">
               <img
-                src="/hero-room.png"
+                src={`${import.meta.env.BASE_URL}hero-room.png`}
                 alt="Agape Kost Room Interior"
                 className="w-full h-full object-cover object-center scale-105 hover:scale-100 transition-transform duration-700"
               />
